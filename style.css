@@ -2,7 +2,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  height: 2000px; /* For testing purposes only */
+  min-height: 100vh;
+  position: relative; /* Add position relative to the body */
 }
 
 nav {
@@ -74,7 +75,10 @@ footer {
   color: #fff;
   padding: 20px;
   text-align: center;
-  position: relative; /* Make the footer a relative positioned element */
+  position: absolute; /* Add position absolute to the footer */
+  bottom: 0; /* Stick it to the bottom */
+  left: 0;
+  right: 0;
 }
 
 #scroll-banner {
